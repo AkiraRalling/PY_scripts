@@ -31,6 +31,7 @@ class Config():
 
     @staticmethod
     def cisco():
+        Config.chrome()
         pgui.hotkey('winleft')
         pgui.typewrite('cisco\n', 0.1)
         time.sleep(1)
